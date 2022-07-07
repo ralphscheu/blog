@@ -16,7 +16,7 @@ nav:
 name: "Ralph Scheuerer"
 description: "Homepage of Ralph Scheuerer, Research Master's student with focus on ML/DL in the medical domain. Open Source and Open Data enthusiast."
 thumbnail_path: "profile-photos/profilepic_colorcorrected.jpg"
-website_repo_url: "https://github.com/scheralph/scheralph.github.io"
+website_repo_url: "https://github.com/ralphscheu/blog"
 
 # URLs
 contact_urls:
