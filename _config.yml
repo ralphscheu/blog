@@ -1,0 +1,52 @@
+# Website settings
+url: "https://www.ralphsch.eu"
+
+# Internal nav
+nav:
+  main:
+    blog: "/blog"
+    projects: "/projects"
+    # resume: "/assets/resume.en.pdf"
+  blog:
+    all: "/blog"
+    tags: "/blog/tags"
+    rss: "/feed.xml"
+
+# Bio settings
+name: "Ralph Scheuerer"
+description: "Homepage of Ralph Scheuerer, Research Master's student with focus on ML/DL in the medical domain. Open Source and Open Data enthusiast."
+thumbnail_path: "profile-photos/profilepic_colorcorrected.jpg"
+website_repo_url: "https://github.com/scheralph/scheralph.github.io"
+
+# URLs
+contact_urls:
+  linkedin:
+    url: "https://www.linkedin.com/in/ralph-scheuerer"
+    label: "LinkedIn"
+    icon: "linkedin-square"
+  github:
+    url: "https://github.com/ralphscheu/"
+    label: "GitHub"
+    icon: "github-square"
+  email:
+    url: "mailto:ralph@rscheuerer.com"
+    label: "Email"
+    value: "ralph@rscheuerer.com"
+    icon: "envelope-square"
+
+# Jekyll build settings
+paginate: 10
+paginate_path: "/blog/page:num"
+permalink: "/blog/:year/:month/:day/:title/"
+sass:
+  sass_dir: "/assets/css"
+  style: :compressed
+highlighter: rouge
+timezone: 'Europe/Berlin'
+repository: ralphscheu/blog
+
+# Plugins (GitHub Pages only support a few)
+plugins:
+  - jekyll-redirect-from
+  - jekyll-sitemap
+  - jekyll-paginate

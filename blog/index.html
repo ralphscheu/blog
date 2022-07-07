@@ -1,0 +1,17 @@
+---
+layout: default
+title: "Blog - Ralph Scheuerer"
+redirect_from: "/blog"
+nav_item: blog
+nav_item_blog: all
+header_title: Blog
+include_header: blog_header.html
+include_comments:
+  count: true
+---
+
+{% include blog-nav.html %}
+{% for post in paginator.posts %}
+  {% include post-outline.html post=post %}
+{% endfor %}
+{% include pagination.html %}
